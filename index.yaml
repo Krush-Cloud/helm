@@ -3,6 +3,16 @@ entries:
   krush-env:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2022-01-03T06:14:13.20616517Z"
+    description: Krush.Cloud Environment Chart
+    digest: b17ba9eb8772bb030f77fdbf8f4200b303e40bb20d8a67e8ef7b126e6eb73bfb
+    name: krush-env
+    type: application
+    urls:
+    - https://github.com/Krush-Cloud/helm/releases/download/krush-env-0.1.1/krush-env-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2022-01-03T00:10:26.127986242Z"
     description: Krush.Cloud Environment Chart
     digest: baa762aa1e88b3a9327a1b3f3448c31284cf4455a0c9e68e7a6115922581290d
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/Krush-Cloud/helm/releases/download/krush-env-0.1.0/krush-env-0.1.0.tgz
     version: 0.1.0
-generated: "2022-01-03T00:10:26.127990042Z"
+generated: "2022-01-03T06:14:13.206176371Z"
