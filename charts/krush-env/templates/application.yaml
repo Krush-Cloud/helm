@@ -18,8 +18,14 @@ spec:
   project: default
   source:
     helm:
+{{- if $val.valueFiles }}
+      valueFiles:
+{{ toYaml $val.valueFiles | indent 6}}
+{{- end }}
+{{- if $val.values }}
       values: |
 {{ toYaml $val.values | indent 8}}
+{{- end }}
     path: {{ $val.path }}
     repoURL: {{ $val.repoURL }}
     targetRevision: {{ $val.targetRevision }}
